@@ -1,0 +1,9 @@
+[DEFAULT]
+BASEURL=http://pan.baidu.com/s/1bn0IlqR
+[InternetShortcut]
+URL=http://pan.baidu.com/s/1bn0IlqR
+IDList=
+IconFile=http://pan.baidu.com/res/static/images/favicon.ico
+IconIndex=1
+[{000214A0-0000-0000-C000-000000000046}]
+Prop3=19,2
