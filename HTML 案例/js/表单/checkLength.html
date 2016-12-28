@@ -1,0 +1,21 @@
+<html>
+<head> 
+<title>长度验证示例</title> 
+<script type="text/javascript"> 
+function chkLength(){ 
+if(form1.pwd.value.length<6||form1.pwd.value.length>10){ 
+alert("密码长度不能少于6个字符或多于10个字符!"); 
+return false; 
+} 
+return true; 
+} 
+</script> 
+</head> 
+<body> 
+<form name="form1"> 
+<p>用户名：<input type="text" name="username" /></p> 
+<p>密码：<input type="password" name="pwd" onblur="chkLength()"/></p> 
+<p><input type="button" name="ensure" value="确定" /></p>
+</form> 
+</body> 
+</html>

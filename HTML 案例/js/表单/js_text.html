@@ -1,0 +1,20 @@
+<html> 
+<head> 
+<title>ÎÄ±¾ÓòÁ·Ï°</title> 
+<script type="text/javascript"> 
+function plus(){ 
+var num1 = document.forms[0].num1.value; 
+var num2 = document.getElementById("num2").value; 
+var num3 = Number(num1) + Number(num2); 
+form1.num3.value = num3; 
+} 
+</script> 
+</head> 
+<body>
+<form name="form1"> 
+<input type="text" id="num1"/> + <input type="text" id="num2"/> 
+<input type="button" value="=" onclick="plus()"/>&nbsp; 
+<input type="text" name="num3"/> 
+</form> 
+</body> 
+</html>

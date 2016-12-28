@@ -1,0 +1,56 @@
+<html>
+<head> 
+<title>表单验证练习</title> 
+<script type="text/javascript" src="checkForm.js"> 
+</script> 
+</head> 
+<body bgcolor="white"> 
+<form action="*" name="form1"> 
+<table align="center" border="0" bgcolor="#DFDFDF" cellpadding="5" widht="700" height="200"> 
+<caption align="left"><font color="red">用户注册信息</font></caption> 
+<tbody bgcolor="#EEFFFF" align="left" valign="middle"> 
+<tr> 
+<td>用&nbsp;户&nbsp;名：</td> 
+<td><input type="text" name="username" onblur="chkUsername()"/>&nbsp;用户名为字母或数字且以字母开头</td> 
+</tr> 
+<tr> 
+<td>密&nbsp;&nbsp;&nbsp; 码：</td> 
+<td><input type="password" name="pwd" onblur="chkPwd()"/>&nbsp;长度为8</td> 
+</tr> 
+<tr> 
+<td>确认密码：</td> 
+<td><input type="password" name="rePwd" onblur="chkSame()"/></td>
+</tr> 
+<tr> 
+<td>真实姓名：</td> 
+<td><input type="text" name="realname" /></td> 
+</tr> 
+<tr> 
+<td>出生日期：</td> 
+<td><input type="text" name="birthday" onblur="chkBirthday()"/> yyyy-mm-dd</td> 
+</tr> 
+<tr> 
+<td>身份证号码：</td> 
+<td><input type="text" name="identy" maxlength="18" onblur="chkIdenty()"/>&nbsp;18位有效数字</td> 
+</tr> 
+<td>地&nbsp;&nbsp;&nbsp; 址： 
+<td><input type="text" name="address" /></td> 
+</tr> 
+<tr> 
+<td>邮&nbsp;&nbsp;&nbsp; 编：</td> 
+<td><input type="text" name="postcode" maxlength="6" onblur="chkPostcode()"/></td> 
+</tr> 
+<tr> 
+<td>电子邮箱：</td> 
+<td><input type="text" name="email" onblur="chkEmail()"/></td> 
+</tr> 
+<tr align="center"> 
+<td colspan="2"><input type="submit" value="提交" onclick="chkIdenBirth()"/>&nbsp;&nbsp;&nbsp; 
+<input type="reset" value="重置"/> 
+</td> 
+</tr> 
+</tbody> 
+</table> 
+</form> 
+</body> 
+</html>

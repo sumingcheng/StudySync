@@ -1,0 +1,24 @@
+<html> 
+<head> 
+<title>内容一致验证练习</title> 
+<script type="text/javascript"> 
+function chkSame(){ 
+if(form1.pwd.value!=form1.rePwd.value){ 
+alert("两次输入密码不一致，请重新输入!"); 
+form1.pwd.value=""; 
+form1.rePwd.value=""; 
+return false; 
+} 
+return true; 
+} 
+</script> 
+</head> 
+<body> 
+<form name="form1"> 
+<p>用户名：<input type="text" name="username" /></p> 
+<p>密码：<input type="password" name="pwd"/></p> 
+<p>密码确认：<input type="password" name="rePwd" onblur="chkSame()"/></p> 
+<p><input type="button" name="ensure" value="确定" /></p> 
+</form> 
+</body> 
+</html>

@@ -1,0 +1,17 @@
+<html> 
+<head> 
+<title>事件示例</title> 
+<script type="text/javascript"> 
+function sayHello(){ 
+var today = new Date(); 
+alert("你好！今天是"+today.toLocaleString()); 
+} 
+</script> 
+</head> 
+<body onUnload="confirm('您确定要离开本页吗？')"> 
+<form> 
+<input type="button" id="click" value="onClick示例" 
+onclick="sayHello()"/> 
+</form> 
+</body> 
+</html>

@@ -1,0 +1,25 @@
+<html> 
+<head> 
+<title>验证电子邮件地址</title> 
+<script type="text/javascript"> 
+function chkEmail(){
+var	reEmail	= /^\w+((-\w+)|(\.\w+))*\@[A-Za-z0-9]+((\.|-)[A-Za-z0-9]+)*\.[A-Za-z0-9]+$/; 
+if(document.form1.email.value.search(reEmail)==-1){ 
+alert("您输入的邮箱地址有误！"); 
+form1.email.value=""; 
+return false; 
+} 
+return true; 
+} 
+</script> 
+</head> 
+<body> 
+<center> 
+<form name="form1"> 
+<p>用户名：<input type="text" name="username"/></p> 
+<p>Email ：<input type="text" name="email" onblur="chkEmail()"/></p> 
+<p><input type="button" name="ensure" value="登录"/></p> 
+</form> 
+</center> 
+</body> 
+</html> 
