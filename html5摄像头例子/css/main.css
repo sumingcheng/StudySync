@@ -1,0 +1,184 @@
+@charset "utf-8";
+/*Download by http://www.codefans.net*/
+html,body{ height:100%;overflow-x:hidden;}
+body,h1,h2,h3,h4,h5,h6,hr,p,blockquote,dl,dt,dd,ul,ol,li,pre,form,fieldset,legend,button,input,textarea,th,td{margin:0;padding:0}
+body,button,input,select,textarea{font:12px/1.5 tahoma,arial,simsun}h1,h2,h3,h4,h5,h6{font-size:100%}
+body{
+	background-color:#101215;
+	background-image:url(../img/ui/c_mask.png), url(../img/ui/c_bg.png);
+	background-size: 100% 110%, 63px 63px;
+	background-repeat:no-repeat,repeat;
+	font:14px/1.5 "\5FAE\8F6F\96C5\9ED1";
+}
+
+.font_1,.font_2,.font_3,.font_4,.font_5{
+	color:#bdbfc5;
+	/*-webkit-text-stroke:0.5px transparent;
+	text-shadow:2px 2px 3px rgba(0,0,0,0.3);*/
+}
+.font_1{ text-align:right; margin-top:25px;font-size:22px;}
+.font_2{position:absolute;top:85px; left:0;font-size:22px;}
+.font_3{text-align:right; margin-top:15px; font-size:18px}
+.font_4{text-align:right;  font-size:18px; display:inline-block;margin-top:31px;}
+.font_5{text-align:right;  font-size:18px; display:inline-block;margin-top:38px;}
+
+.font_h1,.font_h2{
+	position:absolute;
+	top:0; left:0;
+	font-size: 52px;
+	color:#fff; 
+	background:-webkit-linear-gradient(#fff,#909090);
+	-webkit-background-clip:text;
+	-webkit-text-fill-color:transparent;
+	-webkit-text-stroke:0.5px transparent;
+	/*text-shadow:3px 3px 5px rgba(0,0,0,1),#000 15px 5px 5px;*/
+}
+.font_h2{
+	font-size:36px;
+	top:20px; left:0;
+}
+
+.font_h3{
+	font-size: 46px;
+	color:#fff; 
+	background:-webkit-linear-gradient(#fff,#909090);
+	-webkit-background-clip:text;
+	-webkit-text-fill-color:transparent;
+	-webkit-text-stroke:0.5px transparent;
+	text-align:right;
+}
+
+
+.icon{background-position:top center; background-repeat:no-repeat;}
+.icon_1{ background-image:url(../img/icon/icon_area.png)}
+.icon_2{ background-image:url(../img/icon/icon_news.png)}
+.icon_3{ background-image:url(../img/icon/icon_tech.png)}
+.icon_4{ background-image:url(../img/icon/icon_newarea.png)}
+.icon_5{ background-image:url(../img/icon/icon_setting.png)}
+.icon_6{ background-image:url(../img/icon/icon_airconditioning.png)}
+.icon_7{ background-image:url(../img/icon/icon_airconditioning2.png)}
+.icon_8{ background-image:url(../img/icon/icon_heating.png)}
+.icon_9{ background-image:url(../img/icon/icon_tv.png)}
+.icon_10{ background-image:url(../img/icon/icon_player.png)}
+.icon_11{ background-image:url(../img/icon/icon_audio.png)}
+.icon_12{ background-image:url(../img/icon/icon_camera.png)}
+
+.icon_20{ background-image:url(../img/icon/icon_user.png)}
+.icon_21{ background-image:url(../img/icon/icon_adddevice.png)}
+.icon_22{ background-image:url(../img/icon/icon_setting2.png)}
+
+
+
+
+.icon_w_1{background-image:url(../img/icon/icon_weather_1.png);}
+.icon_w_2{background-image:url(../img/icon/icon_weather_2.png);}
+
+.inline{ display:inline-block;}
+.fright{ float:right;}
+.fleft{ float:left;}
+.tright{ text-align:right;}
+
+.Screen_outer{width:100%; height:100%;}
+.Screen_inner{width:auto;height:auto; margin:20px;position:relative; top:0;}
+.logobox{ width:120px; height:120px; background:url(../img/ui/logo_small.png) no-repeat; display:inline-block; margin-bottom:15px;}
+#t_iconbox{width:150px; height:150px; display:inline-block;
+				background-repeat:no-repeat; background-position:center; }
+				
+#bt_goback{ display:inline-block; width:36px; height:110px; background:url(../img/ui/tback1.png) no-repeat; cursor:pointer; margin-bottom:15px;}
+#t_text{height:150px; width:300px; display:inline-block;  position:relative;   }
+#t_descri{ height:150px; width:230px; display:inline-block; position:absolute; right:0;}
+
+
+.t_descri_box{ height:150px; width:230px; display:inline-block; position:absolute; right:168px;}
+.t_descri_txtbox{ height:150px; width:50px;  display:inline-block; position:absolute; right:110px;}
+.t_descri_txtbox span{ }
+.t_descri_icon,.t_descri_bt{ display:inline-block; height:150px; width:120px; 
+				position:absolute; right:0; background-position:center; background-repeat:no-repeat;}
+.t_descri_bt{right:55px; top:30px;}
+
+.sp_title{ height:40px; width:auto; line-height:40px; background:url(../img/ui/bg_sptitle.png) repeat-x; position:relative; margin-top:10px;}
+.sp_title_text{font-size:18px; font-weight:bold; margin-left:10px; color:#8a8b8c; }
+.sp_oc{position:absolute; right:0; top:0; width:40px; height:40px; background-image:url(../img/icon/icon_oc.png); background-repeat:no-repeat; cursor:pointer; }
+.sp_oc_1{ background-position:0 -40px}
+.hide{ display:none;}
+
+.menu_box{width:auto; height:auto; padding:10px; margin-bottom:20px;}
+.menu_box dd{ width:128px; height:138px; margin:5px; display:inline-block;}
+.menu_box dt{ display:inline-block;width:128px;margin-left:-137px; margin-top:30px;
+				text-align:center; text-shadow:2px 2px 3px rgba(0,0,0,0.3); color:#fff; font-size:22px;}
+.menu_box dd:hover,#bt_goback:hover{
+	opacity:0.5;
+	-webkit-transition: opacity .25s linear;
+   transition: opacity .25s linear;
+}
+
+
+
+.news_box{width:auto; height:auto; padding:10px; margin-bottom:20px; }
+.newsimage{ width:180px; height:120px;  margin:0 20px 0 20px; border:5px #666666 solid; cursor:pointer; position:absolute;left:0; background-image:url(../pic/news1.jpg)}
+.news_box dd{ width:auto; color:#eee; font-size:24px; padding:20px 0 80px 250px;}
+.news_title{ width:auto; font-size:22px; margin-bottom:20px; clear:both; color:#eee; text-align:left;}
+.news_briefly{ font-size:18px; color:#999;}
+
+
+.menu_btbox,.menu_btbox2{width:auto; height:auto;  padding:30px; margin-bottom:10px; position:relative;}
+.menu_btbox dt{ display:inline-block; position:absolute; left:30px; line-height:60px; height:60px; margin-top:15px; }
+.menu_btbox .btbox2,.menu_btbox .btbox5{ display:inline-block;}
+.menu_btbox dt span{  font-size:20px; color:#bdbfc5; text-align:left;}
+.menu_btbox dt b{ margin:0 0 0 10px; font-size:26px; color:#fff; text-align:left; }
+.menu_btbox dd{ width:auto;  margin:10px 10px 30px 0;text-align:right;  color:#fff; }
+.menu_btbox2{ padding-right:50px;}
+.menu_btbox2 dd{ display:inline-block; text-align:right;}
+
+.btbox,.btbox2,.btbox3,.btbox4,.btbox5{
+	width:145px;
+	height:60px;
+	background-position:0 0;
+	background-repeat:no-repeat;
+	cursor:pointer;
+	color:#fff;
+	text-align:center;
+	line-height:60px;
+	font-size:26px;
+}
+.btbox5{
+	width:55px;
+	height:60px;
+}
+
+
+.btbox2{width:190px;height:60px;}
+.btbox3{width:146px;height:60px;}
+.btbox4{width:146px;height:60px;}
+.bt1{background-image:url(../img/ui/powerbutton.png);}		
+.bt1_off{background-position-y:-60px;}	
+.bt2:active,.bt3:active,.bt4:active,.bt5:active,.bt6:active,.bt7:active,.bt8:active{ background-position-y:-60px;}			
+.bt2{background-image:url(../img/ui/defbt.png);}
+.bt3{background-image:url(../img/ui/defbt2.png);}
+.bt4{background-image:url(../img/ui/defbt3.png);}
+.bt5,.bt6,.bt7,.bt8{background-image:url(../img/ui/switchbt1.png);}
+.bt6{background-position-x:-55px;}
+.bt7{background-position-x:-110px;}
+.bt8{background-position-x:-275px;}
+
+.checkbt{ width:43px; height:43px; background-image:url(../img/ui/checkbt1.png); background-repeat:no-repeat; cursor:pointer; display:inline-block;}
+.checkbt_selected{ background-position:0 -43px;}
+
+
+
+.inputbox1{height:60px;width:86px;background:url(../img/ui/bg_input1.png) repeat-x; display:inline-block; text-align:center;overflow:hidden; clear:both; position:relative;}
+.inputbox1 span{ position:absolute; left:50%; top:8px; }
+.inputbox1 b{color:#fff;font-size:26px; font-weight:normal; white-space:nowrap; text-align:center; position:relative; left:-50%; }
+.loginbox_outer{margin:5% auto; width:368px;height:500px;} 
+.loginbox_logo{width:306px; height:250px; background:url(../img/ui/logo_big.png) center no-repeat; margin:0 auto;}	
+.loginbox_t{ width:368px; height:63px; background:url(../img/ui/logo_t_big.png) center no-repeat; margin:0 auto; clear:both;}
+.loginbox_dl{ padding:20px 0 0 10px;}
+.loginbox_dl dt,.checktxt{ color:#fff; font-size:26px; text-align:right;display:inline-block; width:100px;}
+.loginbox_dl dd{ height:43px; margin:10px 0 10px 15px; display:inline-block; text-align:left; }
+.loginbox_dl input{ height:43px; color:#fff; font-size:26px; line-height:43px; width:224px; text-align:left; border:none; background:#333333 url(../img/ui/definput.png) no-repeat;}
+.checktxt{ width:160px; text-align:left; line-height:43px; height:43px; vertical-align:top; padding-left:20px; }
+
+#camera_box{ width:320px; height:240px; border:8px solid #666666; margin:20px auto; background-color:#333333;}
+
+
+
