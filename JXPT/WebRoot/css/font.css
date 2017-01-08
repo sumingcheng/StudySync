@@ -1,0 +1,78 @@
+.font {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 14px;
+	font-style: normal;
+	line-height: normal;
+	color: #222222;
+	border: thin solid #66CCFF;
+	width:60%;
+}
+.h_font {
+	font-family:"Times New Roman", Times, serif;
+	font-size: 20px;
+	font-style: normal;
+	line-height: normal;
+	background-color: #33FFFF;
+	background-position: center center;
+	font-weight: bold;
+}
+.login_b {
+	font-family:"ËÎÌו";
+	font-size: 12px;
+	font-style: normal;
+	line-height: normal;
+	letter-spacing: normal;
+	text-align: center;
+	vertical-align: middle;
+	word-spacing: normal;
+	color: #222222;
+}
+.t_top {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 14px;
+	font-style: normal;
+	color: #333333;
+	background-color: #99FFFF;
+	border-bottom-style: solid;
+	border-top-color: #66CCFF;
+	border-right-color: #66CCFF;
+	border-bottom-color: #66CCFF;
+	border-left-color: #66CCFF;
+	border-top-width: thin;
+	border-right-width: thin;
+	border-bottom-width: thin;
+	border-left-width: thin;
+}
+.img {
+	border: 0px none;
+}
+.foot {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	color: #333333;
+	border-top-width: thin;
+	border-right-width: thin;
+	border-bottom-width: thin;
+	border-left-width: thin;
+	border-top-style: solid;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	border-top-color: #66CCFF;
+	border-right-color: #66CCFF;
+	border-bottom-color: #66CCFF;
+	border-left-color: #66CCFF;
+}
+td {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	color: #333333;
+}
+th {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 16px;
+	font-style: italic;
+	color: #00FF00;
+}
